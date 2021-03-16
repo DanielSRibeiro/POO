@@ -1,11 +1,22 @@
 fun main(args: Array<String>) {
-    var a = 1
-    var b = 2
+//variavel e constante
 
-    var c = teste(a, b)
+    //pode ser Daniel ou null
+    val nome:String? = "Daniel"
+    var a:Int = 1
+    val b:Int = 2
 
+    var c = teste1(a, b)
     println("O Valor é $c")
 
+    println("O Valor é ${teste2(4,3)}")
+
+    //in verifica se esta dentro de um valor ou uma lista
 }
 
-fun teste(a :Int, b:Int ): Int { return if(a>b) a else b }
+//Tipos de Funções
+fun teste1(a :Int, b:Int ): Int = if(a>b) a else b
+
+fun teste2(a :Int, b:Int ): Int {
+    return if(a>b) a else b
+}
