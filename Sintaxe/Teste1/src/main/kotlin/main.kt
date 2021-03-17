@@ -10,8 +10,6 @@ fun main(args: Array<String>) {
     println("O Valor é $c")
 
     println("O Valor é ${teste2(4,3)}")
-
-    //in verifica se esta dentro de um valor ou uma lista
 }
 
 //Tipos de Funções
