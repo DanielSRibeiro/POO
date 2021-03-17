@@ -5,7 +5,6 @@ fun main() {
     val a = 20
     val b = 10
 
-
     //var z = calcular(a,b,::sum)
     //ou
     var z = calcular(a,b){
