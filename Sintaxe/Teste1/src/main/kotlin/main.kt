@@ -1,8 +1,7 @@
 fun main(args: Array<String>) {
 //variavel e constante
 
-    //pode ser Daniel ou null
-    val nome:String? = "Daniel"
+    val nome:String = "Daniel"
     var a:Int = 1
     val b:Int = 2
 

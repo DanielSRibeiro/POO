@@ -2,7 +2,7 @@ fun main() {
     var s:String = "Daniel"
     var arrayS = arrayOf("asd",12, 100)
     var b = "    "
-    
+
     //quantidade de letras
     println(s.length)
 
