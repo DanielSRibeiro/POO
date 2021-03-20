@@ -1,3 +1,5 @@
+package bank.digitalInnovation.digionebank
+
 class Pessoa(var nome:String, var cpf:String) {
 
     inner class Endereco(){
