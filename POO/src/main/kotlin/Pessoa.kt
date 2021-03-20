@@ -1,10 +1,14 @@
-class Pessoa {
-    var nome:String = "Daniel"
-    var cpf:String = "123.123.123-12"
+class Pessoa(var nome:String, var cpf:String) {
+
+    inner class Endereco(){
+        var rua:String = "Rua Teste"
+    }
+
+    fun pessoaInformacao() = "Seu nome é $nome e o seu cpf é $cpf"
+
 }
 
 fun main() {
-    var pessoa1 = Pessoa()
-
-    println("Seu nome é ${pessoa1.nome} e o seu cpf é ${pessoa1.cpf}")
+    var pessoa1 = Pessoa("Daniel", "123.123.123-12")
+    println(pessoa1.pessoaInformacao())
 }
