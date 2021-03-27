@@ -1,3 +1,5 @@
+package sintaxe
+
 class Quadrado (var altura:Int, var largura:Int){
 
     val isQuadrado:Boolean
