@@ -8,7 +8,7 @@ class Pessoa (
 
 fun main() {
     //Forma de Instanciar uma class
-    val pessoa1 = Pessoa("Daniel",18, false)
+    var pessoa1 = Pessoa("Daniel",18, false)
     val pessoa2 = Pessoa("Maria",20, true)
 
     println("${pessoa1.nome}")

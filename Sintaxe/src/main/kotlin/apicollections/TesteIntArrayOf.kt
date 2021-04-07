@@ -8,7 +8,7 @@ fun main() {
         println(valor)
     }
     println("---------------------------------")
-    println("Menos numero: ${values.minOrNull()} " +
+    println("Menor numero: ${values.minOrNull()} " +
             "\nMaior numero: ${values.maxOrNull()} " +
             "\nMedia: ${values.average()}")
 
